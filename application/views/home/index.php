@@ -1,47 +1,11 @@
 <!-- Body -->
 <body>
+	
 
-<!-- banner -->
-	<div class="banner" id="home">
-		<nav class="navbar navbar-default">
-			<div class="navbar-header navbar-left">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<h1><a class="navbar-brand" href="index.php"><span>Build</span> Estate</a></h1>
-					<i class="fa fa-home" aria-hidden="true"></i>
-			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-				<nav class="link-effect-2" id="link-effect-2">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html"><span data-hover="Home">Home</span></a></li>
-						<li><a href="#about" class="scroll"><span data-hover="About">About</span></a></li>
-						<li><a href="#services" class="scroll"><span data-hover="Services">Services</span></a></li>
-						<li><a href="#team" class="scroll"><span data-hover="Agents">Agents</span></a></li>
-						<li><a href="#testimonials" class="scroll"><span data-hover="Testimonials">Testimonials</span></a></li>
-						<li><a href="#contact" class="scroll"><span data-hover="Contact Us">Contact Us</span></a></li>
-					</ul>
-				</nav>
-			</div>
-					<div class="agileits-social top_content">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
-						</ul>
-					</div>
-		</nav>
-		</div>
-<!-- //banner -->	
 <!-- slider -->
     <div id="exampleSlider">
         <div>
-			<h2>Whatever good things we build <span>end up building us</span></h2>
+			<h2>Desa Junrejo kaya akan wisata</h2>
 			<div class="readmore-w3">
 				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal1">Read More</a>
 			</div>
@@ -81,10 +45,10 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal">&times;</button>
-				<h4>Build Estate</h4>
+				<h4>Wisata di Desa Junrejo</h4>
 				<img src="<?php echo base_url('assets/') ?>images/b.jpg" alt=" " class="img-responsive">
-				<h5>Want to be a successful landlord</h5>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+				<h5>Desa Junrejo Kecamatan Junrejo</h5>
+				<p>Banyak sekali wisatanya llo</p>
 			</div>
 		</div>
 	</div>

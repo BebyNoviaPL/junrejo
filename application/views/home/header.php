@@ -11,8 +11,7 @@
 <title>Desa Junrejo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
-<meta name="keywords" content="Build Estate a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta name="keywords"  />
 
 <!-- Default-JavaScript-File -->
 <script type="text/javascript" src="<?php echo base_url('assets/') ?>js/jquery-2.1.4.min.js"></script>
@@ -72,3 +71,34 @@ $(document).ready(function() {
 <!-- //Property for sale section Script-->
 
 </head>
+
+<!-- banner -->
+	<div class="banner" id="home">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header navbar-left">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<h1><a class="navbar-brand" href="index.php"><span>Desa</span> Junrejo</a></h1>
+					<i class="fa fa-home" aria-hidden="true"></i>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+				<nav class="link-effect-2" id="link-effect-2">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html"><span data-hover="Home">Home</span></a></li>
+						<li><a href="#about" class="scroll"><span data-hover="Tentang Desa">Tentang Desa</span></a></li>
+						<li><a href="#services" class="scroll"><span data-hover="Keuangan">Keuangan</span></a></li>
+						<li><a href="#team" class="scroll"><span data-hover="PPID Desa">PPID Desa</span></a></li>
+						<li><a href="#testimonials" class="scroll"><span data-hover="Berita">Berita</span></a></li>
+						<li><a href="#contact" class="scroll"><span data-hover="Kontak">Kontak</span></a></li>
+					</ul>
+				</nav>
+			</div>
+					
+		</nav>
+		</div>
+<!-- //banner -->
