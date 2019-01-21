@@ -58,11 +58,11 @@
 
 <!-- about -->
 <div class="about" id="about">
-	<h3 class="heading"><span>Who We Are</span></h3>
+	<h3 class="heading"><span>Tentang Desa Beji</span></h3>
 	<div class="container">
 		<div class="services-grids">
 			<div class="col-md-4 services-grids-info sgi">
-				<h3>Welcome to our Build Estate</h3>
+				<a href="<?php echo base_url('Home/profil/') ?>">
 				<p>“If you can build buildings, why sit on the beach?,We always think of buildings in their settings, but so do other architects.” </p>
 				<ul>
 					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">International Office Buildings.</a></li>
