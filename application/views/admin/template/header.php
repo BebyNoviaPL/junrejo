@@ -167,9 +167,18 @@
                             <a href="<?php echo base_url("Admin/Keuangan") ?>">
                                 <i class="fas fa-tasks"></i>Keuangan</a>
                         </li>
-                        <li>
-                            <a href="<?php echo base_url("Admin/Ppid") ?>">
-                                <i class="fas fa-archive"></i>PPID Desa</a>
+                         <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-building"></i>PPID</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                   <a href="<?php echo base_url("Admin/ppid") ?>"><i class="fas fa-home"></i>PPID Profil</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url("Admin/ppid_layanan") ?>"><i class="fas fa-copy"></i>PPID Layanan</a>
+                                </li>
+                               
+                            </ul>
                         </li>
                         <li>
                             <a href="<?php echo base_url("Admin/Berita") ?>">

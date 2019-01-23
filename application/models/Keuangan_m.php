@@ -21,18 +21,31 @@ class Keuangan_m extends CI_Model {
 		return $query->row(0);
 	}
 
-	public function insert($infografis_apbd)
+	public function insert($dokumen_perencanaan)
 	{
 		$set = [
-			'nama' => $this->input->post('nama'),
-			
-			
-			
+			'tahun' => $this->input->post('tahun'),
+		
 		];
-		if ($dokumen != "") {
-			$set['dokumen'] = $dokumen;
+		if ($dokumen_perencanaan != "") {
+			$set['dokumen_perencanaan'] = $dokumen_perencanaan;
 		}else{
-			$set['dokumen'] = 'default.png';
+			$set['dokumen_perencanaan'] = 'default.pdf';
+		}
+		if ($apbdesa != "") {
+			$set['apbdesa'] = $apbdesa;
+		}else{
+			$set['apbdesa'] = 'default.pdf';
+		}
+		if ($laporan_keuangan != "") {
+			$set['laporan_keuangan'] = $laporan_keuangan;
+		}else{
+			$set['laporan_keuangan'] = 'default.pdf';
+		}
+		if ($input != "") {
+			$set['input'] = $input;
+		}else{
+			$set['input'] = 'default.png';
 		}
 		$insert = $this->db->insert($this->table_name,$set);
 		if($insert){

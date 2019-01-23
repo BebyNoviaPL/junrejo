@@ -23,8 +23,12 @@
               <thead>
                 <tr>
                   <th width="1px">#</th>
-                  <th>Name</th>
-                  <th>Username</th>
+                  <th>Visi</th>
+                  <th>Misi</th>
+                  <th>Struktur Organisasi</th>
+                  <th>Tugas dan Fungsi</th>
+                 
+
                   <th width="116px">Aksi</th>
                 </tr>
               </thead>
@@ -32,12 +36,15 @@
                 <?php foreach ($data as $key => $value): ?>
                   <tr>
                     <td><?php echo ++$key; ?></td>
-                    <td><?php echo $value->nama ?></td>
-                    <td><?php echo $value->username ?></td>
+                    <td><?php echo $value->visi ?></td>
+                    <td><?php echo $value->misi ?></td>
+                    <td><?php echo $value->struktur ?></td>
+                    <td><?php echo $value->tugas ?></td>
+                    
+                   
                     <td>
-                      <a class="btn btn-sm btn-success" href="<?php echo base_url("Admin/".$c_name."/update/".$value->id) ?>"><i class="fa fa-edit"></i> </a>
-                      <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modal-delete" data-href="<?php echo base_url("Admin/".$c_name."/delete/".$value->id) ?>">
-                        <i class="fa fa-trash"></i> 
+                      <a class="btn btn-sm btn-success" href="<?php echo base_url("Admin/".$c_name."/update/".$value->id) ?>"><i class="fas fa-edit"></i>Edit</a>
+                     
                       </button>
                     </td>
                   </tr>
@@ -50,26 +57,7 @@
     </div>
   </div><!-- .animated -->
 </div>
-<div class="modal fade" id="modal-delete" tabindex="-1" role="dialog" aria-labelledby="modaldeleteLabel" aria-hidden="true" data-backdrop="static">
-  <div class="modal-dialog modal-sm" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modaldeleteLabel">Konfirmasi Hapus</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>
-         Apakah anda yakin menghapus data ini?
-       </p>
-     </div>
-     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
-      <a href="#" id="confirm-delete" class="btn btn-danger">Hapus</a>
-    </div>
-  </div>
-</div>
+
 </div>
 <script>
   $('#modal-delete').on('show.bs.modal', function (event) {

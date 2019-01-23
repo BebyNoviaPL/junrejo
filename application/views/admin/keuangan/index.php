@@ -23,8 +23,11 @@
               <thead>
                 <tr>
                   <th width="1px">#</th>
+                  <th>Tahun</th>
                   <th>Dokumen Perencanaan</th>
-                  <th>Tanggal</th>
+                  <th>APBD Desa</th>
+                  <th>Laporan Keuangan</th>
+                  <th>Infografis APBD</th>
                   
                   
                   <th width="116px">Aksi</th>
@@ -34,13 +37,16 @@
                 <?php foreach ($data as $key => $value): ?>
                   <tr>
                     <td><?php echo ++$key; ?></td>
+                     <td><?php echo $value->tahun ?></td>
                     <td><?php echo $value->dokumen_perencanaan ?></td>
-                    <td><?php echo $value->tanggal ?></td>
+                    <td><?php echo $value->apbdesa ?></td>
+                     <td><?php echo $value->laporan_keuangan?></td>
+                      <td><?php echo $value->infografis_apbd ?></td>
                     
                     <td>
-                      <a class="btn btn-sm btn-success" href="<?php echo base_url("Admin/".$c_name."/update/".$value->id) ?>"><i class="fa fa-pencil"></i> Edit</a>
-                      <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#modal-delete" data-href="<?php echo base_url("Admin/".$c_name."/delete/".$value->id) ?>">
-                        <i class="fa fa-trash"></i> Hapus
+                      <a class="btn btn-sm btn-success" href="<?php echo base_url("Admin/".$c_name."/update/".$value->id) ?>"><i class="fa fa-edit"></i> </a>
+                      <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modal-delete" data-href="<?php echo base_url("Admin/".$c_name."/delete/".$value->id) ?>">
+                        <i class="fa fa-trash"></i> 
                       </button>
                     </td>
                   </tr>
@@ -69,7 +75,7 @@
      </div>
      <div class="modal-footer">
       <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
-      <a href="#" id="confirm-delete" class="btn btn-danger">Hapus</a>
+      <a href="<?php echo base_url("Admin/keuangan/delete/".$value->id) ?>" id="confirm-delete" class="btn btn-danger">Hapus</a>
     </div>
   </div>
 </div>

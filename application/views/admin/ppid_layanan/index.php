@@ -23,8 +23,13 @@
               <thead>
                 <tr>
                   <th width="1px">#</th>
-                  <th>Name</th>
-                  <th>Username</th>
+                  <th>Jenis Layanan</th>
+                  <th>Dokumen</th>
+                  <th>Syarat</th>
+                  <th>Biaya</th>
+                    <th>Proses</th>
+                 
+
                   <th width="116px">Aksi</th>
                 </tr>
               </thead>
@@ -32,12 +37,17 @@
                 <?php foreach ($data as $key => $value): ?>
                   <tr>
                     <td><?php echo ++$key; ?></td>
-                    <td><?php echo $value->nama ?></td>
-                    <td><?php echo $value->username ?></td>
+                    <td><?php echo $value->jenis_layanan ?></td>
+                    <td><?php echo $value->dokumen ?></td>
+                    <td><?php echo $value->syarat ?></td>
+                    <td><?php echo $value->biaya ?></td>
+                      <td><?php echo $value->proses ?></td>
+                    
+                   
                     <td>
-                      <a class="btn btn-sm btn-success" href="<?php echo base_url("Admin/".$c_name."/update/".$value->id) ?>"><i class="fa fa-edit"></i> </a>
+                      <a class="btn btn-sm btn-success" href="<?php echo base_url("Admin/".$c_name."/update/".$value->id) ?>"><i class="fas fa-edit"></i></a>
                       <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modal-delete" data-href="<?php echo base_url("Admin/".$c_name."/delete/".$value->id) ?>">
-                        <i class="fa fa-trash"></i> 
+                        <i class="fa fa-trash"></i>
                       </button>
                     </td>
                   </tr>
@@ -66,7 +76,7 @@
      </div>
      <div class="modal-footer">
       <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
-      <a href="#" id="confirm-delete" class="btn btn-danger">Hapus</a>
+      <a href="<?php echo base_url("Admin/ppid_layanan/delete/".$value->id) ?>" id="confirm-delete" class="btn btn-danger">Hapus</a>
     </div>
   </div>
 </div>
