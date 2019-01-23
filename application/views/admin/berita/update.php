@@ -22,32 +22,16 @@
               <?php echo form_error("konten") ?>
             </div>
              <div class="form-group">
+              <label for="input-kategori" class="form-control-label">kategori</label>
+              <input type="text" id="input-kategori" name="kategori" placeholder="Masukan kategori" class="form-control" value="<?php echo $berita->kategori ?>">
+              <?php echo form_error("kategori") ?>
+            </div>
+             <div class="form-group">
              <label for="input-gambar" class="form-control-label">Gambar</label>
               <input type="file" name="gambar" class="form-control">
               <?php echo (isset($error) ? $error : "") ?>
             </div>
-             <div class="form-group">
-              <label for="input-fk_users" class="form-control-label">Users</label>
-              <select name="fk_users" class="form-control" id="input-fk_users">
-                <option selected disabled>Pilih Users</option>
-                <?php foreach ($this->db->get('users')->result() as $value): ?>
-                  <option value="<?php echo $value->id ?>"><?php echo $value->nama ?></option>
-                <?php endforeach ?>
-              </select>
-              <script>$('#input-fk_users').val('<?php echo $berita->fk_users ?>')</script>
-              <?php echo form_error("fk_users") ?>
-            </div>
-            <div class="form-group">
-              <label for="input-fk_kementerian" class="form-control-label">Kementerian</label>
-              <select name="fk_kementerian" class="form-control" id="input-fk_kementerian">
-                <option selected disabled>Pilih Kementerian</option>
-                <?php foreach ($this->db->get('kementerian')->result() as $value): ?>
-                  <option value="<?php echo $value->id ?>"><?php echo $value->nama ?></option>
-                <?php endforeach ?>
-              </select>
-              <script>$('#input-fk_kementerian').val('<?php echo $berita->fk_kementerian ?>')</script>
-              <?php echo form_error("fk_kementerian") ?>
-            </div>
+             
 
             <?php echo form_close(); ?>
           </div>

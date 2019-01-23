@@ -34,6 +34,25 @@ class Dashboard extends CI_Controller {
 		$this->Profil_m->updateData();
 		redirect('Admin/Dashboard/profil');
 	}
+	public function peraturan()
+	{
+		$this->load->model('Peraturan_m');
+		$dataheader = [];
+		$data = [];
+		$datafooter = [
+			'content' => "dashboard",
+		];
+		$this->load->view('admin/template/header',$dataheader);
+		$this->load->view('admin/peraturan',$data);
+		$this->load->view('admin/template/footer',$datafooter);
+	}
+
+	public function peraturan_proses()
+	{
+		$this->load->model('Peraturan_m');
+		$this->Peraturan_m->updateData();
+		redirect('Admin/Dashboard/peraturan');
+	}
 
 	
 }

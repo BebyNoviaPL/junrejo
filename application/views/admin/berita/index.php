@@ -27,8 +27,8 @@
                   <th>Tanggal</th>
                   <th>Konten</th>
                   <th>Gambar</th>
-                  <th>Users</th>
-                  <th>Kementerian</th>
+                  <th>Kategori</th>
+
                   <th width="116px">Aksi</th>
                 </tr>
               </thead>
@@ -40,12 +40,12 @@
                     <td><?php echo $value->tanggal ?></td>
                     <td><?php echo $value->konten ?></td>
                     <td><?php echo $value->gambar ?></td>
-                    <td><?php echo $value->nama_users ?></td>
-                    <td><?php echo $value->nama_kementerian ?></td>
+                    <td><?php echo $value->kategori ?></td>
+                   
                     <td>
-                      <a class="btn btn-sm btn-success" href="<?php echo base_url("Admin/".$c_name."/update/".$value->id) ?>"><i class="fa fa-pencil"></i> Edit</a>
-                      <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#modal-delete" data-href="<?php echo base_url("Admin/".$c_name."/delete/".$value->id) ?>">
-                        <i class="fa fa-trash"></i> Hapus
+                      <a class="btn btn-sm btn-success" href="<?php echo base_url("Admin/".$c_name."/update/".$value->id) ?>"><i class="fas fa-edit"></i></a>
+                      <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modal-delete" data-href="<?php echo base_url("Admin/".$c_name."/delete/".$value->id) ?>">
+                        <i class="fa fa-trash"></i>
                       </button>
                     </td>
                   </tr>

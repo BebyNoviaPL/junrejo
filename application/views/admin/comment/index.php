@@ -18,15 +18,15 @@
             <strong class="card-title">Table <?php echo $c_name ?></strong>
           </div>
           <div class="card-body">
-            <a class="btn btn-primary mb-3 ml-3" href="<?php echo base_url("Admin/".$c_name."/insert") ?>"><i class="fa fa-plus"></i> Tambah</a>
+            
             <table id="bootstrap-datatables" class="table table-striped table-bordered">
               <thead>
                 <tr>
-                  <th width="1px">#</th>
+                  <th width="1px">No</th>
                  <th>Nama</th>
-                  <th>Email</th>
+                  <th>No Tlpn</th>
                   <th>Pesan</th>
-                  <th>Berita</th>
+                  
                   <th width="116px">Aksi</th>
                 </tr>
               </thead>
@@ -35,12 +35,12 @@
                   <tr>
                     <td><?php echo ++$key; ?></td>
                     <td><?php echo $value->nama ?></td>
-                    <td><?php echo $value->email ?></td>
-                    <td><?php echo $value->Pesan ?></td>
-                    <td><?php echo $value->judul_berita ?></td>
+                    <td><?php echo $value->no_tlpn ?></td>
+                    <td><?php echo $value->pesan ?></td>
+                    
                     <td>
                       
-                      <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#modal-delete" data-href="<?php echo base_url("Admin/".$c_name."/delete/".$value->id) ?>">
+                      <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modal-delete" data-href="<?php echo base_url("Admin/".$c_name."/delete/".$value->id) ?>">
                         <i class="fa fa-trash"></i> Hapus
                       </button>
                     </td>

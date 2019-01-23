@@ -6,99 +6,110 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head -->
 <head>
-<title>Desa Junrejo</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta name="keywords"  />
-
-<!-- Default-JavaScript-File -->
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>js/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>js/bootstrap.js"></script>
-<!-- //Default-JavaScript-File -->
-
-<link rel="stylesheet" href="<?php echo base_url('assets/') ?>css/mainStyles.css" /><!-- for banner -->
-
-<link rel="stylesheet" href="<?php echo base_url('assets/') ?>css/flexslider.css" type="text/css" media="screen" property="" /><!-- for testimonials -->
-
-<!-- Property for sale section css files-->
-<link rel="stylesheet" href="<?php echo base_url('assets/') ?>css/owl.carousel.css" type="text/css" media="all">
-<link href="<?php echo base_url('assets/') ?>css/owl.theme.css" rel="stylesheet">
-<!-- //Property for sale section css files -->
-
-<!-- for team section tabs -->
-<link href="<?php echo base_url('assets/') ?>css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
-<!-- // for team section tabs -->
-
-<!-- default css files -->
-	<link rel="stylesheet" href="<?php echo base_url('assets/') ?>css/bootstrap.css" type="text/css" media="all">
-	<link rel="stylesheet" href="<?php echo base_url('assets/') ?>css/style.css" type="text/css" media="all">
-	<link rel="stylesheet" href="<?php echo base_url('assets/') ?>css/font-awesome.min.css" />
-<!-- default css files -->
+<title>Flex Art Corporate Category Flat Bootstrap Responsive Website Template | Home : W3layouts</title>
 	
-<!--web font-->
-<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
-<!--//web font-->
-	
-<!-- scrolling script -->
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script> 
-<!-- //scrolling script -->
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Flex Art Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
 
-<!-- Property for sale section Script-->
-<script>
-$(document).ready(function() { 
-	$("#owl-demo").owlCarousel({
- 
-		autoPlay: 3000, //Set AutoPlay to 3 seconds
-		autoPlay:true,
-		items : 3,
-		itemsDesktop : [640,5],
-		itemsDesktopSmall : [414,4]
- 
-	});
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+    
+	<!-- banner slider css -->
+	<link href="<?php echo base_url("assets/") ?>css/minimal-slider.css" rel='stylesheet' type='text/css' />
+	<!-- //banner slider css -->
 	
-}); 
-</script>
-<!-- //Property for sale section Script-->
+	<!-- css files -->
+	<link rel="stylesheet" href="<?php echo base_url("assets/") ?>css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+    <link href="<?php echo base_url("assets/") ?>css/style6.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="<?php echo base_url("assets/") ?>css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="<?php echo base_url("assets/") ?>css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+	
+	<!--web font-->
+	<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<!--//web font-->
 
 </head>
 
-<!-- banner -->
-	<div class="banner" id="home">
-		<nav class="navbar navbar-default">
-			<div class="navbar-header navbar-left">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<h1><a class="navbar-brand" href="index.php"><span>Desa</span> Junrejo</a></h1>
-					<i class="fa fa-home" aria-hidden="true"></i>
+<body>
+
+<!-- header -->
+<div class="header-top">
+	<header>
+		<div class="top-head ml-lg-auto text-center">
+			<div class="row mr-0">
+
+				
 			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-				<nav class="link-effect-2" id="link-effect-2">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html"><span data-hover="Home">Home</span></a></li>
-						<li><a href="#about" class="scroll"><span data-hover="Tentang Desa">Tentang Desa</span></a></li>
-						<li><a href="#services" class="scroll"><span data-hover="Keuangan">Keuangan</span></a></li>
-						<li><a href="#team" class="scroll"><span data-hover="PPID Desa">PPID Desa</span></a></li>
-						<li><a href="#testimonials" class="scroll"><span data-hover="Berita">Berita</span></a></li>
-						<li><a href="#contact" class="scroll"><span data-hover="Kontak">Kontak</span></a></li>
-					</ul>
-				</nav>
-			</div>
-					
-		</nav>
 		</div>
-<!-- //banner -->
+		<div class="clearfix"></div>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="logo">
+				<h1>
+					<a class="navbar-brand" href="index.html">
+						<i class="fab fa-cloudversify"></i> Flex Art</a>
+				</h1>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+					<i class="fas fa-bars"></i>
+				</span>
+
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-lg-auto text-center">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="features.html">Our Features</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Pages
+							<i class="fas fa-angle-down"></i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="<?php echo base_url("assets/") ?>about.html" title="">About Us</a>
+							<a class="dropdown-item" href="<?php echo base_url("assets/") ?>projects.html" title="">Projects</a>
+							<a class="dropdown-item" href="<?php echo base_url("assets/") ?>errorpage.html">404 error page</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="team.html">Team</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Pricing Pages
+							<i class="fas fa-angle-down"></i>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="pricing.html"> Default</a>
+							<a class="dropdown-item" href="pricing_light.html"> Light Version</a>
+							<a class="dropdown-item" href="pricing.html"> Dark Version</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</header>
+</div>
+<!-- header -->

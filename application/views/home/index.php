@@ -1,695 +1,540 @@
-<!-- Body -->
-<body>
+
+<!-- main image slider container -->
+<section class="slide-window">
+	<div class="slide-wrapper" style="width:300%;">
+		<div class="slide">
+			<div class="slide-caption text-center">
+			   <h2 class="text-uppercase">Creative <span>Art</span></h2>
+			   <p class="my-4">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla,
+				gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Phasellus lacinia hasellus lacinia id erat culpa quis.</p>
+			   <div class="read">
+					<a href="#" data-toggle="modal" data-target="#exampleModalCenter1" role="button">Read More <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+				</div>				
+			</div>
+		</div>
+		<div class="slide slide2">
+			<div class="slide-caption text-center">
+				<h3 class="text-uppercase">Modern <span>Art </span></h3>
+			   <p class="my-4">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla,
+				gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Phasellus lacinia hasellus lacinia id erat culpa quis.</p>
+			   <div class="read">
+					<a href="#" data-toggle="modal" data-target="#exampleModalCenter1" role="button">Read More <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+				</div>	
+			</div>
+		</div>
+		<div class="slide slide3">
+			<div class="slide-caption text-center">
+				<h3 class="text-uppercase">Clean <span> Layout</span></h3>
+			   <p class="my-4">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla,
+				gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Phasellus lacinia hasellus lacinia id erat culpa quis.</p>
+			   <div class="read">
+					<a href="#" data-toggle="modal" data-target="#exampleModalCenter1" role="button">Read More <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="slide-controller">
+		<div class="slide-control-left">
+			<div class="slide-control-line"></div>
+			<div class="slide-control-line"></div>
+		</div>
+		<div class="slide-control-right">
+			<div class="slide-control-line"></div>
+			<div class="slide-control-line"></div>
+		</div>
+	</div>
+</section>
+<!-- end of main image slider container -->
 	
+<!-- welcome -->
+<section class="Welcome py-5">
+	<div class="container py-sm-5">
+		<div class="welcome-grids row">
+			<div class="col-lg-6 mb-lg-0 mb-5">
+				<h3 class="mt-lg-4">Phasellus lacinia id erat.</h3>
+				<p class="my-4">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla,
+				gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Phasellus lacinia</p>
+				<p class="mb-4">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
+				<div class="read">
+					<a href="about.html">Click More <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+				</div>	
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 pr-1 welcome-image">
+				<img src="<?php echo base_url("assets/") ?>images/a1.jpg" class="img-fluid" alt="" />
+			</div>	
+			<div class="col-lg-3 col-md-4 col-6 pl-1 welcome-image">
+				<img src="<?php echo base_url("assets/") ?>images/a2.jpg" class="img-fluid" alt="" />
+			</div>
+		</div>	
+	</div>	
+</section>
+<!-- welcome -->
 
-<!-- slider -->
-    <div id="exampleSlider">
-        <div>
-			<h2>Desa Junrejo kaya akan wisata</h2>
-			<div class="readmore-w3">
-				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal1">Read More</a>
-			</div>
-		</div>
-        <div>
-			<h3>Architecture starts when you <span>put two bricks together</span></h3>
-			<div class="readmore-w3">
-				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal1">Read More</a>
-			</div>
-		</div>
-        <div>
-			<h3>We shape our buildings <span> thereafter they shape us</span></h3>
-			<div class="readmore-w3">
-				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal1">Read More</a>
-			</div>
-		</div>
-        <div>
-			<h3>My buildings will be my legacy<span>they will speak for me</span></h3>
-			<div class="readmore-w3">
-				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal1">Read More</a>
-			</div>
-		</div>
-        <div>
-			<h3>If a building becomes architecture<span>then it is art</span></h3>
-			<div class="readmore-w3">
-				<a class="readmore" href="#" data-toggle="modal" data-target="#myModal1">Read More</a>
-			</div>
-		</div>
-    </div>
-<!-- //slider -->
+<!-- welcome bottom -->
+<section class="Welcome-bottom">
+	<div class="bs-slider-overlay">
+		<div class="container">
+			<div class="welcome-bottom-grids row">
+				
+				<!-- Counter -->
+				<div class="col-lg-6 p-sm-5 p-4 welcome_left Features-bottom">
+					<div class="layer p-sm-5 p-4 welcome_left_inner agile-info">
+							<div class="agileits_w3layouts_about_counter_left w3-agile-grid">
+								<div class="countericon">
+									<span class="fab fa-algolia" aria-hidden="true"></span>
+									<h3>Projects</h3>
+								</div>
+								<div class="counterinfo agile-info">
+									<p class="counter">436</p> 
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="mt-sm-5 mt-3 agileits_w3layouts_about_counter_left w3-agile-grid">
+								<div class="countericon">
+									<span class="fab fa-asymmetrik" aria-hidden="true"></span>
+									<h3>Awards Won</h3>
+								</div>
+								<div class="counterinfo agile-info">
+									<p class="counter">147</p> 
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="mt-sm-5 mt-3 agileits_w3layouts_about_counter_left w3-agile-grid">
+								<div class="countericon">
+									<span class="fas fa-bug" aria-hidden="true"></span>
+									<h3>Professionals</h3>
+								</div>
+								<div class="counterinfo agile-info">
+									<p class="counter">218</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+					</div>
+				</div>
+				<!-- //Counter -->
+				<div class="col-lg-6 p-sm-5 p-4 mt-lg-5 mt-0 welcome_bottom_right">
+					<h3>Phasellus lacinia id erat eu. Nunc id ipsum</h3>
+					<p class="my-4">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla,
+					gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Phasellus lacinia. gravida felis vitae. Phasellus lacinia id, sunt in culpa quis.</p>
+					<div class="read">
+						<a href="#" data-toggle="modal" data-target="#exampleModalCenter1" role="button">Click More <span class="btn ml-2"><i class="fas fa-arrow-right" aria-hidden="true"></i></span></a>
+					</div>
+				</div>
+			</div>	
+		</div>	
+	</div>	
+</section>
+<!-- //welcome bottom -->
 
-<!-- Bootstrap modal popup -->
-<div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
-	<!-- Modal1 -->
-	<div class="modal-dialog">
-		<!-- Modal content-->
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
-				<h4>Wisata di Desa Junrejo</h4>
-				<img src="<?php echo base_url('assets/') ?>images/b.jpg" alt=" " class="img-responsive">
-				<h5>Desa Junrejo Kecamatan Junrejo</h5>
-				<p>Banyak sekali wisatanya llo</p>
+<!-- Features -->
+<section class="features py-5">
+	<div class="container py-sm-5">
+		<div class="heading pb-4">
+			<h3 class="heading mb-2 text-center"> <span>Our </span> Features </h3>
+			<p class="para mb-5 text-center">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id.</p>
+		</div>
+		<div class="feature-grids row">
+			<div class="col-lg-4 col-md-6">
+				<div class="f1 p-sm-5 p-4">
+					<i class="fas fa-arrow-right" aria-hidden="true"></i>
+					<h3 class="my-3">Feature 1</h3>
+					<p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-md-0 mt-sm-5 mt-4">
+				<div class="f2-active p-sm-5 p-4">
+					<i class="fas fa-arrow-right" aria-hidden="true"></i>
+					<h3 class="my-3">Feature 2</h3>
+					<p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-lg-0 mt-sm-5 mt-4">
+				<div class="f1 p-sm-5 p-4">
+					<i class="fas fa-arrow-right" aria-hidden="true"></i>
+					<h3 class="my-3">Feature 3</h3>
+					<p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-sm-5 mt-4">
+				<div class="f1 p-sm-5 p-4">
+					<i class="fas fa-arrow-right" aria-hidden="true"></i>
+					<h3 class="my-3">Feature 4</h3>
+					<p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-sm-5 mt-4">
+				<div class="f1 p-sm-5 p-4">
+					<i class="fas fa-arrow-right" aria-hidden="true"></i>
+					<h3 class="my-3">Feature 5</h3>
+					<p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mt-sm-5 mt-4">
+				<div class="f1 p-sm-5 p-4">
+					<i class="fas fa-arrow-right" aria-hidden="true"></i>
+					<h3 class="my-3">Feature 6</h3>
+					<p>Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum.</p>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- //Modal1 -->
-<!-- //Bootstrap modal popup -->
+</section>
+<!-- //Features -->
 
-<!-- about -->
-<div class="about" id="about">
-	<h3 class="heading"><span>Tentang Desa Beji</span></h3>
-	<div class="container">
-		<div class="services-grids">
-			<div class="col-md-4 services-grids-info sgi">
-				<a href="<?php echo base_url('Home/profil/') ?>">
-				<p>“If you can build buildings, why sit on the beach?,We always think of buildings in their settings, but so do other architects.” </p>
-				<ul>
-					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">International Office Buildings.</a></li>
-					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Apartment On Premier House.</a></li>
-					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Prices are low & parking allowance.</a></li>
-					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Best design architecture.</a></li>
-				</ul>
+<!-- Skills -->
+<section class="bottom-last">
+	<div class="bottom-bg py-5 bs-slider-overlay text-left">
+		<div class="container py-md-5">
+			<div class="heading pb-4">
+				<h3 class="heading mb-2 text-center text-white"> <span>Our </span> Skills </h3>
+				<p class="para mb-5 text-center">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id.</p>
 			</div>
-			<div class="col-md-4 services-grids-info">
-				<img src="<?php echo base_url('assets/') ?>images/about.jpg" alt="">					
+			<div class="row grids">
+				<div class="col-lg-6">
+					<h4 class="title">Proffessional Skills</h4>
+					<p class="my-4">Excepteur sint occaecat non proident, sunt in culpa quis. Int Phasellus lacinia id erat eu ullamcorper. 
+					Nunc id ipsum eur fringillats, gravida felis vitae. Phasellus lacinia id, sunt in culp quis. Phasellus lacinia. gravida felis vitae. 
+					Phasellus lacinia id. sunt inculpa quis. Phasellus lacinia. gravida felis vitae.</p>
+					<div class="bnr-button">
+						<button type="button" class="btn btn-primary play" data-toggle="modal" data-target="#exampleModal">
+							<i class="fas fa-play"></i> 
+						</button> <span class="text-white ml-2">Watch Video </span>
+					</div>
+				</div>
+				<div class="col-md-6 mt-lg-0 mt-5">
+					<div class="progress-one">
+						<h4 class="progress-tittle">Web Design</h4>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+					<div class="progress-one my-4">
+						<h4 class="progress-tittle">PHP Development</h4>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+					<div class="progress-one">
+						<h4 class="progress-tittle">Branding</h4>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+					<div class="progress-one my-4">
+						<h4 class="progress-tittle">Marketing</h4>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+					<div class="progress-one">
+						<h4 class="progress-tittle">Web Features</h4>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+                </div>				
 			</div>
-			<div class="col-md-4 services-grids-info sgi1">
-				<h3>We Make Your dream home</h3>
-				<p>“For decades engineers have stood accused that their buildings do not have any cultural value. We have attempted to liberate engineering of this accusation.” </p>
-				<ul>
-					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Great Engineers ideas.</a></li>
-					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Planning for future model buildings.</a></li>
-					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Modern apartment with large space.</a></li>
-					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">New residential complex features.</a></li>
-				</ul>
-			</div>
-			<div class="clearfix"> </div>
 		</div>
 	</div>
-</div>
-<!-- //about -->
-
-<!-- services -->
-<div class="services" id="services">
-		<h3 class="heading"><span>Our Services</span></h3>
-	<div class="container">
-		<div class="col-md-8 servicesleft">
-			<h4>Modern Apartment for your luxuries life</h4>
-			<h4>Beautiful Design where you deserve best</h4>
-			<div class="serviceslefttop">
-				<div class="col-md-4">
-				<div class="grid1 clr1">
-					<i class="fa fa-home" aria-hidden="true"></i>
-					<h4>Home loan</h4>
-					<h4>-Build Estate</h4>
-				</div>
-				</div>
-				<div class="col-md-4">
-				<div class="grid1 clr2">
-					<i class="fa fa-money" aria-hidden="true"></i>
-					<h4>Low cost</h4>
-					<h4>-Build Estate</h4>
-				</div>
-				</div>
-				<div class="col-md-4">
-				<div class="grid1 clr3">
-					<i class="fa fa-building" aria-hidden="true"></i>
-					<h4>Modern design</h4>
-					<h4>-Build Estate</h4>
-				</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="servicesleftbottom">
-				<div class="col-md-4">
-				<div class="grid1 clr4">
-					<i class="fa fa-home" aria-hidden="true"></i>
-					<h4>Luxury home</h4>
-					<h4>-Build Estate</h4>
-				</div>
-				</div>
-				<div class="col-md-4">
-				<div class="grid1 clr5">
-					<i class="fa fa-bed" aria-hidden="true"></i>
-					<h4>Architecture </h4>
-					<h4>-Build Estate</h4>
-				</div>
-				</div>
-				<div class="col-md-4">
-				<div class="grid1 clr6">
-					<i class="fa fa-building-o" aria-hidden="true"></i>
-					<h4>Office value</h4>
-					<h4>-Build Estate</h4>
-				</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
-<!-- //services -->
+</section>
+<!-- //Skills -->
 
 <!-- team -->
-	<div class="team" id="team">
-			<h3 class="heading"><span>Meet our agents</span></h3>
-		<div class="container">
-			<div class="inner_w3l_agile_grids">
-				<div id="horizontalTab">
-						<ul class="resp-tabs-list">
-						<li>
-							<img src="<?php echo base_url('assets/') ?>images/team1.jpg" alt=" " class="img-responsive" />
-						</li>
-						<li>
-							<img src="<?php echo base_url('assets/') ?>images/team2.png" alt=" " class="img-responsive" />
-						</li>
-						<li>
-							<img src="<?php echo base_url('assets/') ?>images/team3.jpg" alt=" " class="img-responsive" />
-						</li>
-						<li>
-							<img src="<?php echo base_url('assets/') ?>images/team4.jpg" alt=" " class="img-responsive" />
-						</li>
-						</ul>
-						<div class="resp-tabs-container">
-							<div class="tab1">
-								<div class="col-md-6 team-img-w3-agile">
+<section id="myteam" class="team py-5">
+	<div class="container py-md-5">
+		<div class="heading pb-4">
+			<h3 class="heading mb-2 text-center"> <span>Our </span> Team </h3>
+			<p class="para mb-5 text-center">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id.</p>
+		</div>
+		<div class="row team-row">
+			<div class="col-md-4 col-sm-6 team-wrap">
+				<div class="team-member text-center">
+					<div class="team-img">
+						<img src="<?php echo base_url("assets/") ?>images/team1.jpg" alt="">
+						<div class="overlay-team">
+							<div class="team-details text-center">
+								<div class="socials mt-20">
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-google-plus-g"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-instagram"></i>
+									</a>
 								</div>
-								<div class="col-md-6 team-Info-agileits">
-									<h4>Chris Adam</h4>
-									<span>Build Estate Agent</span>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
-									<p class="phone"><b>Call me</b>  +0(12) 266 399 4567</p>
-								<div class="w3_agileits_social_media team_agile_w3l">
-										<ul class="social-icons3">
-											<li class="agileinfo_share">Follow me on</li>
-											<li><a href="#" class="wthree_facebook"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_behance"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>								
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							
-							<div class="tab2">
-							<div class="col-md-6 team-img-w3-agile">
-								</div>
-								<div class="col-md-6 team-Info-agileits">
-									<h4>William ker</h4>
-									<span>Build Estate Agent</span>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>	
-									<p class="phone"><b>Call me</b>  +0(12) 266 399 4567</p>
-								<div class="w3_agileits_social_media team_agile_w3l">
-										<ul class="social-icons3">
-											<li class="agileinfo_share">Follow me on</li>
-											<li><a href="#" class="wthree_facebook"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_behance"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>									
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="tab3">
-								<div class="col-md-6 team-img-w3-agile">
-								</div>
-								<div class="col-md-6 team-Info-agileits">
-									<h4>Albert Son</h4>
-									<span>Build Estate Agent</span>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
-									<p class="phone"><b>Call me</b>  +0(12) 266 399 4567</p>
-							<div class="w3_agileits_social_media team_agile_w3l">
-										<ul class="social-icons3">
-											<li class="agileinfo_share">Follow me on</li>
-											<li><a href="#" class="wthree_facebook"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_behance"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>								
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="tab4">
-							<div class="col-md-6 team-img-w3-agile">
-								</div>
-								<div class="col-md-6 team-Info-agileits">
-									<h4>Mark Smuel</h4>
-									<span>Build Estate Agent</span>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor .</p>
-									<p class="phone"><b>Call me</b>  +0(12) 266 399 4567</p>
-									<div class="w3_agileits_social_media team_agile_w3l">
-										<ul class="social-icons3">
-											<li class="agileinfo_share">Follow me on</li>
-											<li><a href="#" class="wthree_facebook"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="wthree_behance"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>				
-								</div>
-								<div class="clearfix"> </div>
 							</div>
 						</div>
+					</div>
+					<h6 class="team-title">Mustakim</h6>
+					<span>web devloper</span>
 				</div>
 			</div>
+			<!-- end team member -->
+
+			<div class="col-md-4 col-sm-6 team-wrap mt-sm-0 mt-5">
+				<div class="team-member text-center">
+					<div class="team-img">
+						<img src="<?php echo base_url("assets/") ?>images/team3.jpg" alt="">
+						<div class="overlay-team">
+							<div class="team-details text-center">
+								<div class="socials mt-20">
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-google-plus-g"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h6 class="team-title">Aunto Apu</h6>
+					<span>android devloper</span>
+				</div>
+			</div>
+			<!-- end team member -->
+
+			<div class="col-md-4 col-sm-6 team-wrap mt-md-0 mt-5">
+				<div class="team-member last text-center">
+					<div class="team-img">
+						<img src="<?php echo base_url("assets/") ?>images/team2.jpg" alt="">
+						<div class="overlay-team">
+							<div class="team-details text-center">
+								<div class="socials mt-20">
+									<a href="#">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-google-plus-g"></i>
+									</a>
+									<a href="#">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h6 class="team-title">Jagir Alam</h6>
+					<span>Software engineer </span>
+				</div>
+			</div>
+			<!-- end team member -->
 		</div>
-</div>
+	</div>
+</section>
 <!-- //team -->
 
-<!--count-->
-<div class="count-agileits" id="stats">
-	<h3 class="heading"><span>Our fun facts</span></h3>
-		<div class="container">
-					<div class="count-grids">
-					<div class="count-bgcolor-w3ls">
-						<div class="col-md-3 count-grid">
-							<div class="count hvr-bounce-to-bottom">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='210' data-delay='.5' data-increment="1">210</div>
-									<span></span>
-									<h5>Professional agents</h5>
-							</div>
-						</div>
-						<div class="col-md-3 count-grid">
-							<div class="count hvr-bounce-to-bottom">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='700' data-delay='.5' data-increment="1">700</div>
-									<span></span>
-									<h5>Property for sale</h5>
-							</div>
-						</div>
-						<div class="col-md-3 count-grid">
-							<div class="count hvr-bounce-to-bottom">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='40' data-delay='.5' data-increment="1">40</div>
-									<span></span>
-									<h5>Property locations </h5>
-							</div>
-						</div>
-						<div class="col-md-3 count-grid">
-							<div class="count hvr-bounce-to-bottom">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='490' data-delay='.5' data-increment="1">490</div>
-									<h5>Rental Apartments</h5>
-								</div>
-						</div>
-						<div class="clearfix"></div>
-						</div>
-					</div>
-	</div>
-</div>
-<!--count-->
 
-<!-- property for sale -->
-<div class="special" id="offers">
-	<h3 class="heading"><span>Properties for sale</span></h3>
-		<div class="container">
-			<div class="agileits-special-grids">
-				<div id="owl-demo" class="owl-carousel owl-theme">
-					<div class="item">
-						<div class="special-info">
-							<div class="special-info-top">
-								<div class="special-star">
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-								</div>
-								<h4>Residential house</h4>
-							</div>
-							<div class="special-info-bottom">
-								<ul>
-									<li>480 <span>Sqft</span></li>
-									<li>5 <span>Rooms</span></li>
-									<li>1 <span>Pool</span></li>
-								</ul>
-								<p>Vivamus pulvinar imperdiet lorem vel aliquam. Maecenas nunc tellus, feugiat</p>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="special-info special-info1">
-							<div class="special-info-top">
-								<div class="special-star">
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								</div>
-								<h4>Luxuries Apartment</h4>
-							</div>
-							<div class="special-info-bottom">
-								<ul>
-									<li>570 <span>Sqft</span></li>
-									<li>6 <span>Rooms</span></li>
-									<li>3 <span>Pools</span></li>
-								</ul>
-								<p>Vivamus pulvinar imperdiet lorem vel aliquam. Maecenas nunc tellus, feugiat</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="special-info special-info2">
-							<div class="special-info-top">
-								<div class="special-star">
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-								</div>
-								<h4>Office Building</h4>
-							</div>
-							<div class="special-info-bottom">
-								<ul>
-									<li>410 <span>Sqft</span></li>
-									<li>4 <span>Rooms</span></li>
-									<li>2 <span>pools</span></li>
-								</ul>
-								<p>Vivamus pulvinar imperdiet lorem vel aliquam. Maecenas nunc tellus, feugiat</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="special-info">
-							<div class="special-info-top">
-								<div class="special-star">
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								</div>
-								<h4>Architecture Home</h4>
-							</div>
-							<div class="special-info-bottom">
-								<ul>
-									<li>480 <span>Sqft</span></li>
-									<li>5 <span>Rooms</span></li>
-									<li>1 <span>Pool</span></li>
-								</ul>
-								<p>Vivamus pulvinar imperdiet lorem vel aliquam. Maecenas nunc tellus, feugiat</p>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="special-info special-info1">
-							<div class="special-info-top">
-								<div class="special-star">
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-								</div>
-								<h4>Modern Design</h4>
-							</div>
-							<div class="special-info-bottom">
-								<ul>
-									<li>570 <span>Sqft</span></li>
-									<li>6 <span>Rooms</span></li>
-									<li>3 <span>Pools</span></li>
-								</ul>
-								<p>Vivamus pulvinar imperdiet lorem vel aliquam. Maecenas nunc tellus, feugiat</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="special-info special-info2">
-							<div class="special-info-top">
-								<div class="special-star">
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star" aria-hidden="true"></i>
-									<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								</div>
-								<h4>Apartment Tower</h4>
-							</div>
-							<div class="special-info-bottom">
-								<ul>
-									<li>410 <span>Sqft</span></li>
-									<li>4 <span>Rooms</span></li>
-									<li>2 <span>pools</span></li>
-								</ul>
-								<p>Vivamus pulvinar imperdiet lorem vel aliquam. Maecenas nunc tellus, feugiat</p>
-							</div>
-						</div>
-					</div>
+	<!--model-forms-->
+    <!--/Login-->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="login px-4 mx-auto mw-100">
+                        <h5 class="text-center mb-4">Login Now</h5>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label class="mb-2">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" required="">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label class="mb-2">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="" required="">
+                            </div>
+                            <div class="form-check mb-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit mb-4">Sign In</button>
+                            <p class="text-center pb-4">
+                                <a href="#" data-toggle="modal2" data-target="#exampleModalCenter"> Don't have an account?</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--//Login-->
+    <!--/Register-->
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="login px-4 mx-auto mw-100">
+                        <h5 class="text-center mb-4">Register Now</h5>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <label>First name</label>
+
+                                <input type="text" class="form-control" id="validationDefault01" placeholder="" required="">
+                            </div>
+                            <div class="form-group">
+                                <label>Last name</label>
+                                <input type="text" class="form-control" id="validationDefault02" placeholder="" required="">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="mb-2">Password</label>
+                                <input type="password" class="form-control" id="password1" placeholder="" required="">
+                            </div>
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input type="password" class="form-control" id="password2" placeholder="" required="">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit mb-4">Register</button>
+                            <p class="text-center pb-4">
+                                <a href="#">By clicking Register, I agree to your terms</a>
+                            </p>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--//Register-->
+    <!--//model-form-->
+
+	<!-- video Modal Popup -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Introduction Video</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body video">
+					<iframe src="https://player.vimeo.com/video/33531612"></iframe>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
 				</div>
 			</div>
 		</div>
-</div>
-<!-- //property for sale -->
+	</div>
+	<!-- //video Model Popup -->
 
-<!-- testimonials -->		
-	<div class="testimonials" id="testimonials">
-		<div class="w3layouts_event_right">
-			<h3 class="heading"><span>what people says</span></h3>
-			<section class="slider">
-				<div class="flexslider">
-					<ul class="slides">
-						<li>
-							<div class="col-md-4 w3_event_right_grid">
-								<div class="w3_agile_event_right_grids">
-									<div class="col-xs-4 w3_agile_event_right_grid_left">
-										<img src="<?php echo base_url('assets/') ?>images/t1.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-xs-8 w3_agile_event_right_grid_right">
-										<h4>Williamson</h4>
-										<p><i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star-half-o" aria-hidden="true"></i></p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="w3layouts_event_right_para">
-									<p>Nam tempus lobortis sem non ornare. Curabitur dignissim interdum sem, et mollis lorem. 
-										Mauris hendrerit, mi in aliquet egestas, nisi mi turpis.</p>
-								</div>
-							</div>
-							<div class="col-md-4 w3_event_right_grid">
-								<div class="w3_agile_event_right_grids">
-									<div class="col-xs-4 w3_agile_event_right_grid_left">
-										<img src="<?php echo base_url('assets/') ?>images/t2.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-xs-8 w3_agile_event_right_grid_right">
-										<h4>jennifer lopez</h4>
-										<p><i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star-half-o" aria-hidden="true"></i></p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="w3layouts_event_right_para">
-									<p>Nam tempus lobortis sem non ornare. Curabitur dignissim interdum sem, et mollis lorem. 
-										Mauris hendrerit, mi in aliquet egestas, nisi mi turpis.</p>
-								</div>
-							</div>
-							<div class="col-md-4 w3_event_right_grid">
-								<div class="w3_agile_event_right_grids">
-									<div class="col-xs-4 w3_agile_event_right_grid_left">
-										<img src="<?php echo base_url('assets/') ?>images/t3.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-xs-8 w3_agile_event_right_grid_right">
-										<h4>Selena Gomez</h4>
-										<p><i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star-half-o" aria-hidden="true"></i></p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="w3layouts_event_right_para">
-									<p>Nam tempus lobortis sem non ornare. Curabitur dignissim interdum sem, et mollis lorem. 
-										Mauris hendrerit, mi in aliquet egestas, nisi mi turpis.</p>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</li>
-						<li>
-							<div class="col-md-4 w3_event_right_grid">
-								<div class="w3_agile_event_right_grids">
-									<div class="col-xs-4 w3_agile_event_right_grid_left">
-										<img src="<?php echo base_url('assets/') ?>images/t4.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-xs-8 w3_agile_event_right_grid_right">
-										<h4>Catherine Mark</h4>
-										<p><i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star-half-o" aria-hidden="true"></i></p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="w3layouts_event_right_para">
-									<p>Nam tempus lobortis sem non ornare. Curabitur dignissim interdum sem, et mollis lorem. 
-										Mauris hendrerit, mi in aliquet egestas, nisi mi turpis.</p>
-								</div>
-							</div>
-							<div class="col-md-4 w3_event_right_grid">
-								<div class="w3_agile_event_right_grids">
-									<div class="col-xs-4 w3_agile_event_right_grid_left">
-										<img src="<?php echo base_url('assets/') ?>images/t5.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-xs-8 w3_agile_event_right_grid_right">
-										<h4>Victoria demi </h4>
-										<p><i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star-half-o" aria-hidden="true"></i></p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="w3layouts_event_right_para">
-									<p>Nam tempus lobortis sem non ornare. Curabitur dignissim interdum sem, et mollis lorem. 
-										Mauris hendrerit, mi in aliquet egestas, nisi mi turpis.</p>
-								</div>
-							</div>
-							<div class="col-md-4 w3_event_right_grid">
-								<div class="w3_agile_event_right_grids">
-									<div class="col-xs-4 w3_agile_event_right_grid_left">
-										<img src="<?php echo base_url('assets/') ?>images/t6.jpg" alt=" " class="img-responsive" />
-									</div>
-									<div class="col-xs-8 w3_agile_event_right_grid_right">
-										<h4>Kate perry</h4>
-										<p><i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star" aria-hidden="true"></i>
-										<i class="fa fa-star-half-o" aria-hidden="true"></i></p>
-									</div>
-									<div class="clearfix"> </div>
-								</div>
-								<div class="w3layouts_event_right_para">
-									<p>Nam tempus lobortis sem non ornare. Curabitur dignissim interdum sem, et mollis lorem. 
-										Mauris hendrerit, mi in aliquet egestas, nisi mi turpis.</p>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</li>
-					</ul>
+	<!-- Vertically centered Modal -->
+	<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-capitalize text-center" id="exampleModalLongTitle"><i class="fab fa-cloudversify"></i> Flex Art</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
 				</div>
-			</section>
+			<div class="modal-body">
+				<img src="<?php echo base_url("assets/") ?>images/bg.jpg" class="img-fluid mb-3" alt="Modal Image" />
+				Vivamus eget est in odio tempor interdum. Mauris maximus fermentum arcu, ac finibus ante. Sed mattis risus at ipsum elementum,
+				ut auctor turpis cursus. Sed sed odio pharetra, aliquet velit cursus, vehicula enim. Mauris porta aliquet magna, eget laoreet ligula.
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
 		</div>
-		<div class="clearfix"> </div>
+	  </div>
 	</div>
-<!-- //testimonials -->	
+	<!-- //Vertically centered Modal -->
 
-<!-- contact -->
-<div class="contact" id="contact">
-	<h3 class="heading"><span>Get In Touch With Us</span></h3>
-	<div class="col-md-3 mail">
-		<h4>Contact Us</h4>
-		<p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>+0(12) 000 123 3120</p>
-		<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">mail@example.com</a></p>
-	</div>
-	<div class="col-md-3 social">
-		<h4>Connect us</h4>
-		<ul>
-			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fa fa-rss"></i></a></li>
-			<li><a href="#"><i class="fa fa-vk"></i></a></li>
-		</ul>
-	</div>
-	<div class="col-md-3 address">
-		<h4>Address</h4>
-		<p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>1680 Richmond St, Corner in, ON N58 3d7, USA</p>
-	</div>
-	<div class="col-md-3 contactimg">
-		<img src="<?php echo base_url('assets/') ?>images/contact.png" alt="" />
-	</div>
-	<div class="clearfix"></div>
-</div>
-<!-- //contact -->
-
-<!-- map -->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.84038702346!2d-74.25819125880415!3d40.70583158896605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1491973492375" style="border:0" allowfullscreen=""></iframe><!-- //map -->
-<!-- //map -->
-
-<!-- contact form -->
-<div class="contact-form">
-	<h3 class="heading"><span>Mail Us</span></h3>
-	<div class="container">
-		<form action="#" method="post">
-			<input type="text" placeholder="Name" required="">
-			<input type="email" placeholder="Email" required="">
-			<input type="text" placeholder="Telephone" required="">
-			<textarea placeholder="Message" required=""></textarea>
-			<button class="btn1">Submit</button>
-		</form>
-	</div>
-</div>
-<!-- //contact form -->
-
+	<!-- js -->
+	<script src="<?php echo base_url("assets/") ?>js/jquery-2.1.4.min.js"></script>
+	<script src="<?php echo base_url("assets/") ?>js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
+	<!-- //js -->
 	
-<script type="text/javascript" src="<?php echo base_url('assets/') ?>js/numscroller-1.0.js"></script><!-- numscroller js file -->
-
-<!-- property for sale js file-->
-<script src="<?php echo base_url('assets/') ?>js/owl.carousel.js"></script>
-<!-- //property for sale js file-->
+	<!-- search overlay -->
+    <script src="<?php echo base_url("assets/") ?>js/modernizr-2.6.2.min.js"></script> 
+	<!-- //search overlay -->
 	
-<!-- flexSlider --><!-- testimonials -->
-<script defer src="<?php echo base_url('assets/') ?>js/jquery.flexslider.js"></script>
-	<script type="text/javascript">
-		$(window).load(function(){
-		  $('.flexslider').flexslider({
-			animation: "slide",
-			start: function(slider){
-			  $('body').removeClass('loading');
-			}
-		  });
+	<!--search jQuery-->
+    <script src="<?php echo base_url("assets/") ?>js/classie-search.js"></script>
+    <script src="<?php echo base_url("assets/") ?>js/demo1-search.js"></script>
+    <!--//search jQuery-->
+
+    <!-- dropdown nav -->
+    <script>
+        $(document).ready(function() {
+            $(".dropdown").hover(
+                function() {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function() {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+    <!-- //dropdown nav -->
+
+	<!-- banner slider js -->
+	<script src="<?php echo base_url("assets/") ?>js/minimal-slider.js"></script>
+	<!-- //banner slider js -->
+
+	<!-- Stats-Number-Scroller-Animation-JavaScript -->
+	<script src="<?php echo base_url("assets/") ?>js/waypoints.min.js"></script> 
+	<script src="<?php echo base_url("assets/") ?>js/counterup.min.js"></script> 
+	<script>
+		jQuery(document).ready(function( $ ) {
+			$('.counter').counterUp({
+				delay: 100,
+				time: 1000
+			});
 		});
 	</script>
-<!-- //flexSlider --><!-- //testimonials -->
- 
-<!-- banner slider js files -->
-<script src="<?php echo base_url('assets/') ?>js/mainScript.js"></script>
-<script src="<?php echo base_url('assets/') ?>js/rgbSlide.min.js"></script>
-<!-- // banner slider js files -->
+	<!-- //Stats-Number-Scroller-Animation-JavaScript -->
 
-<!--tabs--><!-- for team -->
-	<script src="<?php echo base_url('assets/') ?>js/easy-responsive-tabs.js"></script>
+	<!-- start-smoth-scrolling -->
+	<script src="<?php echo base_url("assets/") ?>js/SmoothScroll.min.js"></script>
+	<script src="<?php echo base_url("assets/") ?>js/move-top.js"></script>
+	<script src="<?php echo base_url("assets/") ?>js/easing.js"></script>
 	<script>
-	$(document).ready(function () {
-	$('#horizontalTab').easyResponsiveTabs({
-	type: 'default', //Types: default, vertical, accordion           
-	width: 'auto', //auto or any width like 600px
-	fit: true,   // 100% fit in a container
-	closed: 'accordion', // Start closed if in accordion view
-	activate: function(event) { // Callback function if tab is switched
-	var $tab = $(this);
-	var $info = $('#tabInfo');
-	var $name = $('span', $info);
-	$name.text($tab.text());
-	$info.show();
-	}
-	});
-	$('#verticalTab').easyResponsiveTabs({
-	type: 'vertical',
-	width: 'auto',
-	fit: true
-	});
-	});
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
 	</script>
-<!--//tabs--><!-- //for team -->
-
-<!-- Here stars scrolling -->
-	<script src="<?php echo base_url('assets/') ?>js/SmoothScroll.min.js"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/') ?>js/move-top.js"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/') ?>js/easing.js"></script>
 	<!-- here stars scrolling icon -->
-	<script type="text/javascript">
+	<script>
 		$(document).ready(function() {
 			/*
 				var defaults = {
@@ -705,8 +550,7 @@
 			});
 	</script>
 	<!-- //here ends scrolling icon -->
-<!-- Here ends scrolling -->
+	<!-- start-smoth-scrolling -->
 
 </body>
-<!-- //Body -->
 </html>

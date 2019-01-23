@@ -35,9 +35,9 @@ class Comment extends CI_Controller {
 			'content' => "datatables",
 		];
 		$this->form_validation->set_rules('nama',"Nama","required");
-		$this->form_validation->set_rules('email',"Email","required");
+		$this->form_validation->set_rules('no_tlpn',"no_tlpn","required");
 		$this->form_validation->set_rules('pesan',"Pesan","required");
-		$this->form_validation->set_rules('fk_berita',"Berita","required");
+		
 
 		if ($this->form_validation->run() == false) {
 			$this->load->view('admin/template/header',$dataheader);
@@ -53,15 +53,15 @@ class Comment extends CI_Controller {
 		$dataheader = [];
 		$data = [
 			'c_name' => $this->c_name,
-			'kementerian' => $this->Comment_m->get_id($id),
+			
 		];
 		$datafooter = [
 			'content' => "datatables",
 		];
 			$this->form_validation->set_rules('nama',"Nama","required");
-		$this->form_validation->set_rules('email',"Email","required");
+		$this->form_validation->set_rules('no_tlpn',"no_tlpn","required");
 		$this->form_validation->set_rules('pesan',"Pesan","required");
-		$this->form_validation->set_rules('fk_berita',"Berita","required");
+		
 
 		if ($this->form_validation->run() == false) {
 			$this->load->view('admin/template/header',$dataheader);

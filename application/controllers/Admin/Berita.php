@@ -37,15 +37,14 @@ class Berita extends CI_Controller {
 		$this->form_validation->set_rules('judul',"Judul","required|is_unique[berita.judul]");
 		$this->form_validation->set_rules('tanggal',"Tanggal","required");
 		$this->form_validation->set_rules('konten',"Konten","required");
-		$this->form_validation->set_rules('fk_users',"Users","required");
-		$this->form_validation->set_rules('fk_kementerian',"Kementerian","required");
-
+		$this->form_validation->set_rules('kategori',"Kategori","required");
+		
 		if ($this->form_validation->run() == false) {
 			$this->load->view('admin/template/header',$dataheader);
 			$this->load->view('admin/berita/insert',$data);
 			$this->load->view('admin/template/footer',$datafooter);
 		}else{
-			$config['upload_path'] = './assets_admin/images/gambar/';
+			$config['upload_path'] = './assets_admin/images/';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']  = '3000';
 			$config['max_width']  = '10240';
@@ -86,15 +85,12 @@ class Berita extends CI_Controller {
 		$datafooter = [
 			'content' => "datatables",
 		];
-		$judul_unique = "";
-		if ($this->input->post('judul') != $data['berita']->judul) {
-			$judul_unique = "|is_unique['berita.judul']";
-		}
-		$this->form_validation->set_rules('judul',"Judul","required".$judul_unique);
+		
+		
 		$this->form_validation->set_rules('tanggal',"Tanggal","required");
 		$this->form_validation->set_rules('konten',"Konten","required");
-		$this->form_validation->set_rules('fk_users',"Users","required");
-		$this->form_validation->set_rules('fk_kementerian',"Kementerian","required");
+		$this->form_validation->set_rules('kategori',"Kategori","required");
+		
 
 
 		if ($this->form_validation->run() == false) {
@@ -102,7 +98,7 @@ class Berita extends CI_Controller {
 			$this->load->view('admin/berita/update',$data);
 			$this->load->view('admin/template/footer',$datafooter);
 		}else{
-			$config['upload_path'] = './assets_admin/images/gambar/';
+			$config['upload_path'] = './assets_admin/images/';
 			$config['allowed_types'] = 'gif|jpg|png';
 			$config['max_size']  = '3000';
 			$config['max_width']  = '10240';

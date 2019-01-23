@@ -5,9 +5,7 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-		if($this->session->userdata('logged_in') != null){
-			redirect('Home','refresh');
-		}
+		
 		$this->load->library('form_validation');
 		$this->form_validation->set_rules('username','Username','required|trim|callback_cekDB');
 		$this->form_validation->set_rules('password','Password','required');
